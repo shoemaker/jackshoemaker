@@ -1,0 +1,19 @@
+{
+  "name": "jackshoemaker",
+  "version": "0.1.0",
+  "authors": [
+    "Brian Shoemaker <brianshoemaker@gmail.com>",
+    "Jack Shoemaker <jackshoemaker1@gmail.com"
+  ],
+  "description": "Personal homepage for Jack Shoemaker",
+  "main": "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://jackshoemaker.com",
+  "private": true,
+  "dependencies" : {
+    "font-awesome": "4.0.3"
+  }
+}
