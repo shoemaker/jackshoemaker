@@ -16,10 +16,8 @@
 
     </head>
     <body>
-        <section id="intro">
-            <h1>Hello World!</h1>
-            <p>Homepage for Jack Shoemaker.</p>
-        </section>
-
+        <h1>Jack Shoemaker</h1>
+        <p>Hello World!</p>
+        <p>Homepage for Jack Shoemaker.</p>
     </body>
 </html>
