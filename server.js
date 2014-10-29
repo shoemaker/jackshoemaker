@@ -15,7 +15,7 @@ var c = require('./config').config;  // App configuration
 var app = express();
 app.set('port', process.env.PORT || c.appPort);
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hjs');
+app.set('view engine', 'hbs');
 //app.use(favicon(__dirname + '/img/favicon.ico'));
 app.use(compress());
 app.use(bodyParser());
