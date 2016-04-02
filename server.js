@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 //app.use(favicon(__dirname + '/img/favicon.ico'));
 app.use(compress());
-app.use(bodyParser());
+app.use(bodyParser.urlencoded( { extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
@@ -26,6 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
  * Define routes.
  */
 app.get('/', routes.index);
+app.get('/foo', routes.foo);
 
 
 /**
